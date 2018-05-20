@@ -64,11 +64,8 @@ def Check_input(u_input, replacement, correct_answer, word, l):
             word = word.replace(replacement, str(user_input))
             l.append(word)
             return True
-"""
-learned about try , except from:
-http://geek-university.com/python/the-try-except-else-statements/
-checking if the input is a number
-"""
+
+ 
 
 def start_program(user_input, level, questions, answers):
     """
