@@ -130,8 +130,7 @@ def do_quiz(q_str, parts_of_speech, correct_answers):
             user_input2 = raw_input("Your answer for "+ replacement + " is... " )
             if Check_input(user_input2, replacement, correct_answer, word, replaced) == True:
                 break
-            #else:
-            #    i +=1
+            
 
         else:
             replaced.append(word)
